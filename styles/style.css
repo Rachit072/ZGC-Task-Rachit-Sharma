@@ -574,5 +574,94 @@ input, textarea {
 }
 }
 @media only screen and (max-width: 400px) {
+  .home{
+    width: 800px;
+  }
+  nav {
+    margin: 0px 5px;
+  }
   
+  nav a {
+    font-weight: 100;
+  }
+  
+  .hero-section{
+    height: 550px;
+  }
+
+
+/* section-lux  */
+.flex{
+  gap: 0px;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.lux{
+  height: 450px;
+  width: 800px;
+  padding: 10px;
+  
+}
+.lux-heading{
+   height: 38px;
+   width: 135px;
+}
+
+.lux-img img{
+  width: 300px;
+  height: 237px;
+  padding: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* section contact form */
+.contact-form-container{
+  width: 800px;
+}
+.contact-container2{
+display: flex;
+justify-content: center;
+width: 334px;
+height: 378px;
+border: none;
+}
+
+.contact-form {
+  font-size: small;
+  max-width: 524px;
+}
+
+input, textarea {
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+
+  /* footer */
+  footer{
+    width: 800px;
+  }
+  
+.box-2{
+  font-size: xx-small;
+}
+
+.footer-foot{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+/* section 2 */
+.contact-us{
+  width: 800px;
+  margin:10px;
+  padding:10px;
+}
+.contact-container{
+border: none;
+width: 750px;
+}
+
 }
